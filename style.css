@@ -1,0 +1,69 @@
+.signin{
+    width: 250px;
+    margin: auto;
+    padding: 40px;
+    background-color: rgba(44, 62, 80, 0.7);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+form{
+    width: 240px;
+    text-align: center;
+}
+input[type=text]{
+    width: 240px;
+    padding: 5px 0;
+    border: 1px #ffffff solid;
+    text-align: center;
+}
+input[type=password]{
+    width: 240px;
+    padding: 5px 0;
+    border: 1px #ffffff solid;
+    text-align: center;
+}
+input[type=submit]{
+    background-color: cornflowerblue;
+  
+    padding: 5px 0px;
+    color: #ffffff;
+    width: 100px;
+}
+input[type=submit]:hover{
+    background-color: blue;
+   color: #ffff;
+
+}
+span{
+    color: rgb(34, 34, 240);
+    text-transform: capitalize;
+}
+#pw{
+    color: red;
+    font-size: 16px;
+}
+.weak{
+    height: 30px;
+    padding: 3px;
+    background-color: red;
+    color: #ffff;
+}
+.active{
+color: yellow;
+}
+#logintab,#signuptab{
+    width:40%;
+    display:inline-block;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+   
+    margin-left: 20px;
+    color: #ffff;
+    
+}

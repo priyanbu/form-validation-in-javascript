@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>signup login</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="signin">
+            <div id="loginicontainer">
+               
+            <div id="logincontainer">
+            <form class="login">
+               <h2>Login</h2>
+               <input type="text" name="username"  id="username" placeholder="username"><br><br>
+               <input type="password" name="password" placeholder="password"><br><br><br>
+               <a href="#"><input type="submit"></a><br><br><br>
+
+               <div class="tab">  <p>don't have account ?<span>&nbsp; <a href="#" class="signup"
+                onclick="ToggleContainer()"
+                >signup</a></span></div> </p>
+            </form>
+          </div>
+          <div id="signupcontainer"   >
+             <form class="signup" onsubmit="signup()" >
+                <h2>signup</h2>
+               <input type="text" name="Fname" id="fname"placeholder="enter first name"><br><br>
+               <input type="text" name="Lname" id="Lname" placeholder="enter last name"><br><br>
+               <input type="text" name="email" id="email" placeholder="email"><br><br>
+               <input type="text" name="phonenum"id="pnum"   placeholder="enter mobile num"><br/><br/>
+               <input type="password"  name="password" id="password" placeholder="password"><span id="pw"></span><br><br><br>
+                 <!-- <button class="submit" onclick="signup()">Submit</button>  -->
+               <a href="#"><input type="submit"></a><br><br><br>
+
+                <p>already you have account <span>&nbsp; <a href="#" class="login"
+                    onclick="ToggleContainer()"
+                    >login</a></span> </p>
+            </form> 
+            </div>
+        </div>
+        </div>
+        <script src="./signin.js"></script>
+        
+    </body>
+</html>
